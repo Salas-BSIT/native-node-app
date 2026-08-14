@@ -7,8 +7,7 @@ const { URL } = require('url');
 //In-memory "databases" (an arrary of tasks)
 let tasks = ['Learn Node.js', 'Build a server', 'Feel the pain of manual parsing'];
 
-const PORT = 4000; 
-// instead of 3000, i changed it to 4000, i couldn't find the issue of what cause it to '3000 already in use' and how to fix it
+const PORT = 3000; 
 
      //Create the server
      const server = http.createServer((req, res) => {
